@@ -27,9 +27,9 @@ namespace Demo.PlayerProfile
             bool isInfinite = repeat < 0;
             var waiter = new WaitForSeconds(delay); 
 
-            while (isInfinite || (!isInfinite && repeat < 0))
+            while (isInfinite || repeat >= 0)
             {
-                if (isInfinite)
+                if (!isInfinite)
                     repeat--;
                 
                 yield return Animation(duration, curve, action);
