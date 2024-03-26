@@ -50,10 +50,16 @@ SpriteAtlas:
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
-    packedSpriteRenderDataKeys: []
+    packedSpriteRenderDataKeys:
+    - 68de98d899585b7469e0fb40a0fcbc56: -7950592921491781682
+    - 68de98d899585b7469e0fb40a0fcbc56: -2007123248449907398
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: -7950592921491781682, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+  - {fileID: -2007123248449907398, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - DC_logo
+  - bt_08
   m_RenderDataMap: {}
   m_Tag: HomeScreen
   m_IsVariant: 0
