@@ -45,32 +45,32 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 3771312908773494092, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-    - {fileID: -8271923494276973957, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-    - {fileID: 6199322048381056329, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-    - {fileID: -224692700315155323, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-    - {fileID: 6589028767941305160, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    - {fileID: 8009063554710921634, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - {fileID: -5251142114940116979, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - {fileID: 4241787881703104800, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - {fileID: -5690360116096160354, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - {fileID: -11589998751398824, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
     packedSpriteRenderDataKeys:
-    - 68de98d899585b7469e0fb40a0fcbc56: -224692700315155323
-    - 68de98d899585b7469e0fb40a0fcbc56: 3771312908773494092
-    - 68de98d899585b7469e0fb40a0fcbc56: 6199322048381056329
-    - 68de98d899585b7469e0fb40a0fcbc56: -8271923494276973957
-    - 68de98d899585b7469e0fb40a0fcbc56: 6589028767941305160
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: -5690360116096160354
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: 8009063554710921634
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: -5251142114940116979
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: -11589998751398824
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: 4241787881703104800
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: -224692700315155323, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-  - {fileID: 3771312908773494092, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-  - {fileID: 6199322048381056329, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-  - {fileID: -8271923494276973957, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-  - {fileID: 6589028767941305160, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+  - {fileID: -5690360116096160354, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+  - {fileID: 8009063554710921634, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+  - {fileID: -5251142114940116979, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+  - {fileID: -11589998751398824, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+  - {fileID: 4241787881703104800, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
   m_PackedSpriteNamesToIndex:
+  - scrollbar_bg
   - icon_hard_currency
   - icon_settings
   - bt_01
-  - Hud_bg_01
   - icon_soft_currency
   m_RenderDataMap: {}
   m_Tag: OptionsBar

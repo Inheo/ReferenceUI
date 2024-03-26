@@ -45,21 +45,21 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 7776031438493574829, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-    - {fileID: -5517419590838096035, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-    - {fileID: 6384687770644334960, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    - {fileID: -3409848730179640832, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - {fileID: -5148549242414072376, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - {fileID: 2800000, guid: b01cd6fabb49a4e6ba55f42cab6899d3, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
     packedSpriteRenderDataKeys:
-    - 68de98d899585b7469e0fb40a0fcbc56: -5517419590838096035
-    - 68de98d899585b7469e0fb40a0fcbc56: 7776031438493574829
-    - 68de98d899585b7469e0fb40a0fcbc56: 6384687770644334960
+    - b01cd6fabb49a4e6ba55f42cab6899d3: 21300000
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: -5148549242414072376
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: -3409848730179640832
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: -5517419590838096035, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-  - {fileID: 7776031438493574829, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-  - {fileID: 6384687770644334960, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+  - {fileID: 21300000, guid: b01cd6fabb49a4e6ba55f42cab6899d3, type: 3}
+  - {fileID: -5148549242414072376, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+  - {fileID: -3409848730179640832, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
   m_PackedSpriteNamesToIndex:
   - Burst
   - XP_Hud_bg

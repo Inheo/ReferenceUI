@@ -45,18 +45,18 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 58855588604010279, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-    - {fileID: -4516063357131998986, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    - {fileID: 7059264670440116238, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - {fileID: 1487540489353985653, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
     packedSpriteRenderDataKeys:
-    - 68de98d899585b7469e0fb40a0fcbc56: 58855588604010279
-    - 68de98d899585b7469e0fb40a0fcbc56: -4516063357131998986
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: 1487540489353985653
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: 7059264670440116238
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: 58855588604010279, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-  - {fileID: -4516063357131998986, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+  - {fileID: 1487540489353985653, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+  - {fileID: 7059264670440116238, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
   m_PackedSpriteNamesToIndex:
   - Main_menu_button_01
   - Main_menu_selector

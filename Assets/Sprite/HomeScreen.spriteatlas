@@ -45,18 +45,18 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: -7950592921491781682, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-    - {fileID: -2007123248449907398, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+    - {fileID: -7624519259561890652, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - {fileID: 2343063564339774893, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
     packedSpriteRenderDataKeys:
-    - 68de98d899585b7469e0fb40a0fcbc56: -7950592921491781682
-    - 68de98d899585b7469e0fb40a0fcbc56: -2007123248449907398
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: -7624519259561890652
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: 2343063564339774893
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
-  - {fileID: -7950592921491781682, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
-  - {fileID: -2007123248449907398, guid: 68de98d899585b7469e0fb40a0fcbc56, type: 3}
+  - {fileID: -7624519259561890652, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+  - {fileID: 2343063564339774893, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
   m_PackedSpriteNamesToIndex:
   - DC_logo
   - bt_08
