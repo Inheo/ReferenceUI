@@ -125,6 +125,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 5032376240643966085, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - target: {fileID: 1612160151485029261, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+      propertyPath: m_text
+      value: Send
+      objectReference: {fileID: 0}
     - target: {fileID: 2139672649572321820, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -217,6 +221,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MenuBar
       objectReference: {fileID: 0}
+    - target: {fileID: 4849830473871867842, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+      propertyPath: m_text
+      value: Player Info
+      objectReference: {fileID: 0}
     - target: {fileID: 4859671677069670999, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -272,6 +280,10 @@ PrefabInstance:
     - target: {fileID: 6140573333018993212, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
       propertyPath: m_text
       value: Mail
+      objectReference: {fileID: 0}
+    - target: {fileID: 7029695789347595842, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+      propertyPath: m_text
+      value: Shop
       objectReference: {fileID: 0}
     - target: {fileID: 8064885935367150239, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
       propertyPath: m_AnchorMax.y
