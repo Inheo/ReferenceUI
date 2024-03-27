@@ -88,6 +88,9 @@ MonoBehaviour:
   _screenContainer: {fileID: 8766658321261016205}
   _screensConfig: {fileID: 11400000, guid: b2af75a6703f042559dd38734cb99ad2, type: 2}
   _homeScreenToggle: {fileID: 6857036611109754003}
+  _playerInfoScreenToggle: {fileID: 7335683346660862373}
+  _sendScreenToggle: {fileID: 3520707839306305002}
+  _shopScreenToggle: {fileID: 5120000340251930661}
   _mailScreenToggle: {fileID: 8337333703018706011}
 --- !u!1001 &3037262264190212644
 PrefabInstance:
@@ -101,9 +104,17 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 5032376240643966085, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - target: {fileID: 746277144003260477, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+      propertyPath: m_Name
+      value: MenuBarItemPlayerInfo
+      objectReference: {fileID: 0}
     - target: {fileID: 1612160151485029261, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
       propertyPath: m_text
       value: Send
+      objectReference: {fileID: 0}
+    - target: {fileID: 2027449880253099459, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+      propertyPath: m_Name
+      value: MenuBarItemMail
       objectReference: {fileID: 0}
     - target: {fileID: 2139672649572321820, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
       propertyPath: m_Pivot.x
@@ -189,6 +200,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 6090462263307253772, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - target: {fileID: 2926001747915631037, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+      propertyPath: m_Name
+      value: MenuBarItemShop
+      objectReference: {fileID: 0}
     - target: {fileID: 4451775733774173592, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -209,6 +224,10 @@ PrefabInstance:
       propertyPath: m_text
       value: Mail
       objectReference: {fileID: 0}
+    - target: {fileID: 6866523888537277554, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+      propertyPath: m_Name
+      value: MenuBarItemSend
+      objectReference: {fileID: 0}
     - target: {fileID: 7029695789347595842, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
       propertyPath: m_text
       value: Shop
@@ -222,14 +241,47 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+--- !u!114 &3520707839306305002 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1944029809114388430, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+  m_PrefabInstance: {fileID: 3037262264190212644}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &4005706814348922936 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2139672649572321820, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
   m_PrefabInstance: {fileID: 3037262264190212644}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5120000340251930661 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7866487557525727745, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+  m_PrefabInstance: {fileID: 3037262264190212644}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &6857036611109754003 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8435122909538291383, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+  m_PrefabInstance: {fileID: 3037262264190212644}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7335683346660862373 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5758715020451623809, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
   m_PrefabInstance: {fileID: 3037262264190212644}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}

@@ -13,33 +13,30 @@ namespace Demo.MainMenu
         
         [Header("Toggles")]
         [SerializeField] private Toggle _homeScreenToggle;
+        [SerializeField] private Toggle _playerInfoScreenToggle;
+        [SerializeField] private Toggle _sendScreenToggle;
+        [SerializeField] private Toggle _shopScreenToggle;
         [SerializeField] private Toggle _mailScreenToggle;
 
         private RectTransform _currentScreen;
         
         private void Awake()
         {
-            TryOpenHomeScreen(true);
+            TryOpenScreen(true, _screensConfig.HomeScreenPrefab);
+            
             _homeScreenToggle.onValueChanged.AddListener(HomeToggleValueChanged);
+            _playerInfoScreenToggle.onValueChanged.AddListener(PlayerInfoToggleValueChanged);
+            _sendScreenToggle.onValueChanged.AddListener(SendToggleValueChanged);
+            _shopScreenToggle.onValueChanged.AddListener(ShopToggleValueChanged);
             _mailScreenToggle.onValueChanged.AddListener(MailToggleValueChanged);
         }
         
-        private void HomeToggleValueChanged(bool value)
-        {
-            TryOpenHomeScreen(value);
-        }
-        
-        private void MailToggleValueChanged(bool value)
-        {
-            TryOpenMailScreen(value);
-        }
-        
-        private void TryOpenHomeScreen(bool isNeedOpenNewScreen) => 
-            TryOpenScreen(isNeedOpenNewScreen, _screensConfig.HomeScreenPrefab);
+        private void HomeToggleValueChanged(bool value) => TryOpenScreen(value, _screensConfig.HomeScreenPrefab);
+        private void PlayerInfoToggleValueChanged(bool value) => TryOpenScreen(value, _screensConfig.PlayerInfoScreenPrefab);
+        private void SendToggleValueChanged(bool value) => TryOpenScreen(value, _screensConfig.SendScreenPrefab);
+        private void ShopToggleValueChanged(bool value) => TryOpenScreen(value, _screensConfig.ShopScreenPrefab);
+        private void MailToggleValueChanged(bool value) => TryOpenScreen(value, _screensConfig.MailScreenPrefab);
 
-        private void TryOpenMailScreen(bool isNeedOpenNewScreen) =>
-            TryOpenScreen(isNeedOpenNewScreen, _screensConfig.MailScreenPrefab);
-        
         private void TryOpenScreen(bool isNeedOpenNewScreen, RectTransform prefab)
         {
             if (!isNeedOpenNewScreen)

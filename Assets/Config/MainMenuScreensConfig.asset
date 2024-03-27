@@ -13,4 +13,7 @@ MonoBehaviour:
   m_Name: MainMenuScreensConfig
   m_EditorClassIdentifier: 
   <HomeScreenPrefab>k__BackingField: {fileID: 8659245873455360418, guid: 5954acdf48dce4f48a0b871ece91c2e8, type: 3}
+  <PlayerInfoScreenPrefab>k__BackingField: {fileID: 2093381703220284385, guid: e93d6f61258574a19a83fc3abfd1aa29, type: 3}
+  <SendScreenPrefab>k__BackingField: {fileID: 4278711044317002913, guid: 913907318b66845b5a53b2b51b8a2705, type: 3}
+  <ShopScreenPrefab>k__BackingField: {fileID: 7450929334466917820, guid: 7eab3c9bb11ec442fbc230393a91a8d0, type: 3}
   <MailScreenPrefab>k__BackingField: {fileID: 975444123869016242, guid: d6100761153514292b4d32319b9f3408, type: 3}
