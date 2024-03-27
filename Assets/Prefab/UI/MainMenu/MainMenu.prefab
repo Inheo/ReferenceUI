@@ -121,6 +121,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 684036470332867046, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 5032376240643966085, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
     - target: {fileID: 2139672649572321820, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -201,6 +205,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2235916805508963352, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6090462263307253772, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - target: {fileID: 4451775733774173592, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 8724526191619182453, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
     - target: {fileID: 4563494849883813933, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
       propertyPath: m_Name
       value: MenuBar
@@ -229,6 +241,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5338479145460512855, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7689961323659733338, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
     - target: {fileID: 6127349963231455145, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -253,6 +269,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6140573333018993212, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+      propertyPath: m_text
+      value: Mail
+      objectReference: {fileID: 0}
     - target: {fileID: 8064885935367150239, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -300,6 +320,10 @@ PrefabInstance:
     - target: {fileID: 8631368993250852393, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8766973875436946164, guid: 2031667112ccb47fca8dc99dca1bf5d7, type: 3}
+      propertyPath: m_text
+      value: Home
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

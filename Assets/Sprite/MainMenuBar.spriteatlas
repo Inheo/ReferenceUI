@@ -47,18 +47,38 @@ SpriteAtlas:
     packables:
     - {fileID: 7059264670440116238, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
     - {fileID: 1487540489353985653, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - {fileID: -2650139147542495811, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - {fileID: 6090462263307253772, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - {fileID: -7689961323659733338, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - {fileID: 8724526191619182453, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+    - {fileID: 5032376240643966085, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
     packedSpriteRenderDataKeys:
     - 48c3ef1cbd076418a9eb3510b65cbcb7: 1487540489353985653
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: -2650139147542495811
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: -7689961323659733338
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: 6090462263307253772
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: 5032376240643966085
+    - 48c3ef1cbd076418a9eb3510b65cbcb7: 8724526191619182453
     - 48c3ef1cbd076418a9eb3510b65cbcb7: 7059264670440116238
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 1487540489353985653, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+  - {fileID: -2650139147542495811, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+  - {fileID: -7689961323659733338, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+  - {fileID: 6090462263307253772, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+  - {fileID: 5032376240643966085, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
+  - {fileID: 8724526191619182453, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
   - {fileID: 7059264670440116238, guid: 48c3ef1cbd076418a9eb3510b65cbcb7, type: 3}
   m_PackedSpriteNamesToIndex:
   - Main_menu_button_01
+  - Main_menu_icon_01
+  - Main_menu_icon_03
+  - Main_menu_icon_02
+  - Main_menu_icon_05
+  - Main_menu_icon_04
   - Main_menu_selector
   m_RenderDataMap: {}
   m_Tag: MainMenuBar
